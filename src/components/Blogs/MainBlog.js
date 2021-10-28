@@ -4,7 +4,7 @@ import blog1 from '../../images/blog1.svg';
 import blog2 from '../../images/blog2.svg';
 import blog3 from '../../images/blog3.svg';
 
-const Blogs = () => {
+const MainBlog = () => {
     return (
         <Container>
         <Row xs={1} md={3} className="pb-3">
@@ -12,7 +12,7 @@ const Blogs = () => {
   <Card>
     <Card.Img variant="top" src={blog1} height="300rem" />
     <Card.Body>
-      <Card.Title>How to invest</Card.Title>
+      <Card.Title>Card title</Card.Title>
     </Card.Body>
   </Card>
 </Col>
@@ -21,7 +21,7 @@ const Blogs = () => {
   <Card>
     <Card.Img variant="top" src={blog2} height="300rem"/>
     <Card.Body>
-      <Card.Title>Fintech the future</Card.Title>
+      <Card.Title>Card title</Card.Title>
     </Card.Body>
   </Card>
   </Col>
@@ -29,7 +29,7 @@ const Blogs = () => {
   <Card>
     <Card.Img variant="top" src={blog3} height="300rem" />
     <Card.Body>
-      <Card.Title>Cryptocurrencies</Card.Title>
+      <Card.Title>Card title</Card.Title>
     </Card.Body>
   </Card>
 </Col>
@@ -38,4 +38,4 @@ const Blogs = () => {
     )
 }
 
-export default Blogs
+export default MainBlog

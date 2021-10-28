@@ -1,3 +1,3 @@
 import reactDom from "react-dom";
-import App from "./App";
-reactDom.render(<App/>,document.getElementById('root'));
+import Router from "./Router";
+reactDom.render(<Router/>,document.getElementById('root'));
