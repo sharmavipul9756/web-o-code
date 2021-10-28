@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar,Container,Nav,NavDropdown } from 'react-bootstrap'
+import { Navbar,Container,Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Logo from '../../images/logo.svg'
 const NavBar = () => {
@@ -22,6 +22,7 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" >
             <Nav.Link ><Link to="/" style={{ textDecoration: "none",color: "inherit"}}>Home</Link></Nav.Link>
+            <Nav.Link ><Link to="/aboutus" style={{ textDecoration: "none",color: "inherit"}}>About Us</Link></Nav.Link>
             <Nav.Link ><Link to="/blogs"style={{ textDecoration: "none",color: "inherit"}}>Blogs</Link></Nav.Link>
             <Nav.Link ><Link to="/contactus" style={{ textDecoration: "none",color: "inherit"}}>Contact Us</Link></Nav.Link>
             <Nav.Link ><Link to="/News" style={{ textDecoration: "none",color: "inherit"}}>News</Link></Nav.Link>
