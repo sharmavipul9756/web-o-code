@@ -3,7 +3,7 @@ import { Navbar,Container,Nav,NavDropdown } from 'react-bootstrap'
 import Logo from '../../images/logo.svg'
 const NavBar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
         <Container>
         <Navbar.Brand href="#home">
         <img
@@ -18,8 +18,8 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#features">Blogs</Nav.Link>
+            <Nav.Link href="#pricing">News</Nav.Link>
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -37,6 +37,7 @@ const NavBar = () => {
         </Navbar.Collapse>
         </Container>
       </Navbar>
+      
     )
 }
 
